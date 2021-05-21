@@ -1,0 +1,9 @@
+/* Global, basic, shared CSS file for the waterbits project
+nme@20210521 
+*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Pattaya&display=swap');
+
+body {
+  font-family: lato;
+  font-size: small;
+}
