@@ -56,3 +56,60 @@ nav>a:hover {
 h3 {
   text-transform: uppercase;
 }
+
+h3, h4 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
+h6 {
+  font-size: 1.1rem;
+}
+
+#services {
+  min-width: 80vw;
+}
+
+#services_intro {
+  font-style: italic;
+  text-align: center;
+}
+
+#service_offer {
+  border-color: var( --darker-colour);
+  border-width: 1px;
+  border-style: solid;
+}
+
+#service_affiliate {
+  display: flex;
+  flex-direction: row;
+  border-color: var( --darker-colour);
+  border-width: 1px;
+  border-style: solid;
+}
+
+#service_affiliate>div {
+  margin: 0 auto;
+  width: 450px;
+  padding: 5px;
+}
+
+#service_affiliate>div>a>img {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+@media (max-width: 800px) {
+  #service_affiliate {
+    flex-direction: column;
+  }
+  html,body {
+    margin: 50px 5px 50px 5px;
+  }
+}
